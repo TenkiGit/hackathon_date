@@ -41,7 +41,7 @@ File: Layout CSS
 #header .table .table-cell:nth-child(2){}
 #header .table .table-cell:nth-child(3){}
 
-#header #logo{font-size:26px; text-transform:uppercase;}
+#header #logo{font-size:36px; Color:white;}	/* font-sizeを36pxに変更,フォント色を白に変更 */
 
 #header form{display:block; position:relative; width:100%;}
 #header input, #header button{display:block; height:32px; border:solid;}
@@ -268,7 +268,7 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#684568;}
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(129,112,129,.4); /* #817081 */}
+.overlay::after{color:inherit; background-color:skyblue; /* #817081 */} /* 背景色をスカイブルーに変更 */
 .btn, .btn.inverse:hover{color:inherit; background-color:transparent; border-color:inherit;}
 .btn:hover, .btn.inverse{color:#FFFFFF; background-color:#684568; border-color:#684568;}
 
