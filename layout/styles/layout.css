@@ -458,3 +458,15 @@ table a, #comments a{background-color:inherit;}
 
 	.container, #footer{padding-bottom:50px;}
 }
+a.center{
+	width: 300px;
+	margin: auto;
+	display: block;
+	height: 50px;
+  border: solid;
+  color: inherit;
+  vertical-align: middle;
+	padding: 10px 7px 2px;
+	align-items: flex-start;
+	box-sizing: border-box;
+}
