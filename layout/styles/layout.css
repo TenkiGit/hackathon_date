@@ -124,13 +124,20 @@ File: Layout CSS
 
 /* Sign Up
 --------------------------------------------------------------------------------------------------------------- */
-#signup{padding:120px 0;}
+#signup{padding:80px 0;}
 
 #signup form{display:block; position:relative; width:60%; margin:0 auto;}
 #signup input, #signup button{display:block; height:50px; border:solid;}
 #signup input{width:100%; padding:5px 50px 5px 10px; border-width:1px; font-size:16px;}
 #signup button{position:absolute; top:1px; right:1px; width:48px; height:48px; border-width:0 0 0 1px; font-size:22px; cursor:pointer;}
 #signup button em{display:none;}
+
+#signup_button {padding:20px 0;}
+#signup_button form{display:block; position:absolute; width 20%:0 center;}
+#signup_button input, #signup_button button{display:block; height:50px; border:solid;}
+#signup_button input{width:30%; padding:5px 25%px 5px 10px; border-width:1px; font-size:16px;}
+#signup_button button{position:absolute; top:1px; right:1px; width:48px; height:48px; border-width:0 0 0 1px; font-size:22px; cursor:pointer;}
+#signup_button button em{display:none;}
 
 
 /* Footer
@@ -274,8 +281,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#684568;}
 
 
 /* Rows */
-.row0{color:#FFFFFF; background-color:rgba(215,215,215,.8); /* #D7D7D7 */}
-.row1{color:#817081; background-color:rgba(255,255,255,.8); border-color:#F2F2F2;}
+.row0{color:#FFFFFF; background-color:#87CEEB; /* #D7D7D7 */}
+.row1{color:#87CEEB; background-color:#6495ED; border-color:#FFFFFF;} /* 『ロゴ』背景色は深い青　境界線は白 */
 .row2{color:#888888; background-color:#FFFFFF; border-color:#F2F2F2;}
 .row3{color:#888888; background-color:#FFFFFF;}
 .row4{color:#FFFFFF; background-color:#3A273A;}
@@ -327,7 +334,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#684568;}
 
 
 /* Sign Up */
-#signup input, #signup button{color:#FFFFFF; background-color:transparent; border-color:#F2F2F2;}
+#signup input, #signup button{color:#FFFFFF; background-color:transparent; border-color:#FFFFFF;} /* アカウント入力用 背景は透過 境界線を白にする */
 #signup form:hover input, #signup input:focus{color:#888888; background-color:#FFFFFF; border-color:#684568;}
 #signup form:hover button, #signup button:hover{color:#684568;}
 #signup *[placeholder]{color:#FFFFFF; opacity:1;}
