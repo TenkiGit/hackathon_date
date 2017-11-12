@@ -135,8 +135,12 @@ File: Layout CSS
 #signup_button {padding:20px 0;}
 #signup_button form{display:block; position:absolute; width 20%:0 center;}
 #signup_button input, #signup_button button{display:block; height:50px; border:solid;}
-#signup_button input{width:30%; padding:5px 25%px 5px 10px; border-width:1px; font-size:16px;}
-#signup_button button{position:absolute; top:1px; right:1px; width:48px; height:48px; border-width:0 0 0 1px; font-size:22px; cursor:pointer;}
+#signup_button input{
+	width: 300px;
+  text-align: center;
+	margin: auto;
+}
+#signup_button button{position:center; top:1px; right:1px; width:48px; height:48px; border-width:0 0 0 1px; font-size:22px; cursor:pointer;}
 #signup_button button em{display:none;}
 
 
